@@ -16,7 +16,9 @@ With this, I understood that my input would be all features excluding the "Expec
  - Originally, I had used a **Linear Regression model**, however after plotting my results I figured to try a different model as well. This led to me trying a **Support Vector Regression** model.
 # Results  
 After training using both a LR model and SVR model, I printed my mean squared error and plotted my results. For plotting, I plotted a histogram of the difference between my predicted values and actual expected values.  
-What I found was that the SVR gave me a much skinnier distribution, which is great but the mean squared error was higher than for the LR model. 
-![Linear Regression Distribution](LinearRegression.png) ![Support Vector Regression Distribution](SVR.png)
+What I found was that the SVR gave me a much skinnier distribution, which is great but the mean squared error was higher than for the LR model.  
+  
+  
+![Linear Regression Distribution](LinearRegression.png)  ![Support Vector Regression Distribution](SVR.png)
 # What I would do with what I know now
 I think that one of the things I would change in how I approached this problem is to group the data points by each hour, rather than the random data points. This would help predict **hourly** rainfall better. 
