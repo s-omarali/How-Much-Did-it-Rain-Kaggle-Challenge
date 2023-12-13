@@ -21,4 +21,6 @@ What I found was that the SVR gave me a much skinnier distribution, which is gre
   
 ![Linear Regression Distribution](LinearRegression.png)  ![Support Vector Regression Distribution](SVR.png)
 # What I would do with what I know now
-I think that one of the things I would change in how I approached this problem is to group the data points by each hour, rather than the random data points. This would help predict **hourly** rainfall better. 
+I think that one of the things I would change in how I approached this problem is to group the data points by each hour, rather than the random data points. This would help predict **hourly** rainfall better.
+# How to Reproduce Results
+To reproduce these results, you would need to split your data by the "Expected" column. Then, you would need to apply a regression model of your choice. After finishing training, you would need to apply a mean squared error function on your predicted values against the actual expected value. You may then visualize this data via histogram or scatter plot to examine the distribution.  
