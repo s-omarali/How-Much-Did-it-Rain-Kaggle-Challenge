@@ -11,6 +11,7 @@ With this, I understood that my input would be all features excluding the "Expec
 - Firstly I had to trim the data to 100,000 data points as stated above.
 - Secondly, I plotted the distribution of the "Expected" value, which I will attach below.
   ![](expected.png)
+  - I also needed to deal with NaN values before training. After examining the dataset, I found that there weren't that many values that were NaN, therefore I filled those values with 0.
 # Models I used  
  - Originally, I had used a **Linear Regression model**, however after plotting my results I figured to try a different model as well. This led to me trying a **Support Vector Regression** model.
 # Results  
