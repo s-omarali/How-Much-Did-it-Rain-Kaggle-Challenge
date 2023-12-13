@@ -1,6 +1,6 @@
 # How Much Did it Rain Kaggle Challenge  
 My Kaggle Challenge for DATA 3402  
-[link](https://www.kaggle.com/competitions/how-much-did-it-rain-ii/overview/evaluation)
+[Link to challenge](https://www.kaggle.com/competitions/how-much-did-it-rain-ii/overview/evaluation)
 ## The goal of this challenge is to use machine learning to predict hourly rainfall from polarimetric radars ##   
 After looking at the data, I noticed that there is an "Expected" column. That specific column is the value I want to attain using machine learning, making this a regression task.   
 With this, I understood that my input would be all features excluding the "Expected" value, and my output would be the "Expected".  
